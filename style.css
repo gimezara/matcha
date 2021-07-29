@@ -1,0 +1,26 @@
+
+body {
+    background-color: #fffbf7;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    color: #025157;
+    margin-left: 20px;
+    font-family: "Alegreya", serif;
+    font-weight: 900;
+  }
+
+h4 {
+        color: #46484c;
+        font-family: "Slabo 27px", serif;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+
+  button {
+    background-color:#025157; 
+    color: white;
+  }
+
