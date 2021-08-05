@@ -7,20 +7,93 @@ body {
 h1 {
     color: #025157;
     margin-left: 20px;
+    margin-bottom: 24px;
+    margin-top: 0%;
     font-family: "Alegreya", serif;
     font-weight: 900;
+    text-align: center;
   }
 
-h4 {
+main > h4 {
         color: #46484c;
         font-family: "Slabo 27px", serif;
         font-size: 20px;
         margin-bottom: 30px;
     }
 
+.txtcomercial{
+  color: #46484c;
+  font-family: "Slabo 27px", serif;
+  height: 45px;
+  margin-top: 15px;
+}
+
 
   button {
     background-color:#025157; 
     color: white;
+    border-radius: 5px;
   }
 
+.header{
+  margin: 40px 20px 0px;
+  font-size: 0px;
+  height: 45px;
+  font-family: sans-serif;
+}
+
+.header > *{
+  font-size: 16px;
+  display: inline-block;
+}
+
+main {
+ margin-top: 200px;
+ text-align: center;
+}
+
+.itemnav{
+  display: inline;
+  padding-left: 5px;
+  font-family: sans-serif;
+
+}
+
+.logo{
+  width: 20%;
+
+}
+.navar{
+  width: 60%;
+  text-align: center;
+  color: #025157;
+  
+}
+
+.navar > ul{
+  padding-left: 0px;
+  
+}
+
+.actions{
+  width: 20%;
+  text-align: center;
+  font-size: 14px;
+  
+}
+
+.actions > * {
+ margin: 0px 10px;
+}
+
+.actions > button{
+  padding-left: 8px;
+  background-color: #67b54b;
+  color: white;
+  border: 0px;
+}
+
+.actions > a{
+text-decoration: none;
+color: #67b54b;
+}
