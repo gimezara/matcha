@@ -1,5 +1,6 @@
 body {
   background-color: #fffbf7;
+  margin: 0ch;
 }
 
 h1 {
@@ -149,4 +150,52 @@ li {
   font-size: 40px;
   font-family:  "Alegreya", serif;
   font-size: 20px;
+}
+
+.features{
+  display: grid;
+  
+  grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  background-color: #025157;
+  height: 660px;
+  padding: 5% 10%;
+ 
+}
+.features-carac{
+  background-color: #f6fafa;
+  margin: 10px;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.features.features-carac.feature-content{
+  padding: 30px 20px 40px 40px;
+  flex: 2;
+}
+
+.features.features-carac.feature-content > *{
+  margin-bottom: 1 rem;
+  margin-top: 0px;
+}
+
+.features.features-carac.feature-content img {
+  flex: 1;
+  width: 40%;
+  position: relative;
+  right: -50px;
+  height: 80%;
+  transition: right 1s;
+}
+
+.feature-carac .feature-image img {
+  margin-top: 0;
+  height: 100%;
+}
+
+.features.features-carac.feature-content img:hover {
+  right: -20px;
 }
