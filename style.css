@@ -154,13 +154,13 @@ li {
 
 .features{
   display: grid;
-  
   grid-template: repeat(2, 1fr)/repeat(2, 1fr);
   background-color: #025157;
   height: 660px;
   padding: 5% 10%;
  
 }
+
 .features-carac{
   background-color: #f6fafa;
   margin: 10px;
@@ -168,8 +168,6 @@ li {
   border-radius: 5px;
   display: flex;
   align-items: center;
-
-
 }
 
 .features.features-carac.feature-content{
@@ -191,11 +189,85 @@ li {
   transition: right 1s;
 }
 
-.feature-carac .feature-image img {
+.feature-carac.feature-image img {
   margin-top: 0;
   height: 100%;
 }
 
 .features.features-carac.feature-content img:hover {
   right: -20px;
+}
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+@media (max-width:1300px){
+  body{
+    background-color: yellow;
+  }
+
+@media (min-width:380px) and (max-width:1400px){
+    body{
+      background-color: green;
+    }
+}
+ 
+@media  (max-width:375px){
+  body{
+    background-color: peru;
+  }
+  h1{
+    font-size: 30px;
+    font-weight: 450;
+  }
+  .navbar{
+    display: none;
+  }
+  .actions{
+    display: none;
+  }
+  main{
+    margin-top: 150px;
+  }
+
+  .SecVideo{
+    flex-direction: column;
+    width: 90%;
+  }
+
+ .SecVideo .promo{
+  width: 100%;
+
+ }
+
+ .artpublish > form{
+  display: flex; 
+  flex-direction: colum;
+ }
+
+ .artpublish > form > div{
+    height: 60px;
+    margin-top: 10px;
+ }
+
+ .features{
+  display: grid;
+  grid-template: repeat(4, 1fr)/ 1fr;
+  padding: 5% 10%;
+ 
+ }
+ .feature-image{
+   display: none;
+ }
+
+
+}
+
+
+}
+
+
+
 }
